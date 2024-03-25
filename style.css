@@ -3,7 +3,11 @@
     padding: 0;
 }
 
-.container {
+ul li {
+    list-style-type: none;
+}
+
+.site-wrapper {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
@@ -12,7 +16,6 @@
 
 header {
     background-color: lightblue;
-    grid-column: 2/3;
 }
 
 main {
