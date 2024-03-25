@@ -7,6 +7,10 @@ ul li {
     list-style-type: none;
 }
 
+.profile-pic {
+    border-radius: 50%;
+}
+
 .site-wrapper {
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -34,4 +38,51 @@ main {
 .nav li {
     margin: 10px 0;
     font-size: 20px;
+}
+
+.header-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+header input {
+    width: 95%;
+    border: 0;
+    border-radius: 20px;
+    height: 20px;
+    background-color: lightgray;
+    padding-left: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+}
+
+.username img {
+    margin-right: 20px;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-buttons button {
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 0;
+    background-color: blue;
+    color: white;
 }
